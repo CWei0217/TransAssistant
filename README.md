@@ -3,6 +3,8 @@
 > Android 屏幕翻译助手：圈选屏幕任意区域，多引擎 OCR 识别文字，AI 翻译后以悬浮字幕形式展示。
 >
 > An Android screen translation assistant: capture any on-screen text, recognize it with multiple OCR engines, translate with AI, and view the results as floating subtitles.
+>
+> 本质上是为了打无汉化补丁的文字游戏而诞生的产物。作者打文字游戏不想开电脑，但安卓上没有LunaTranslator，所以自己搞一个。功能仅满足屏幕翻译这一基本需求。
 
 ## 功能特性
 
@@ -27,7 +29,7 @@
 
 | 引擎 | 凭据 | 说明 |
 | --- | --- | --- |
-| 百度 OCR | API Key + Secret Key | 通用文字识别 |
+| 百度 OCR | API Key + Secret Key | 通用文字识别 | 目前有点问题无法使用
 | 阿里云 OCR | AccessKey ID + AccessKey Secret | 通用文字识别 |
 | Paddle OCR | AI Studio Token | 百度飞桨版面解析 |
 | GLM-OCR | 智谱 API Key | 版面解析（layout_parsing） |
@@ -39,26 +41,7 @@
 
 ChatGPT (OpenAI) · DeepSeek · Moonshot (Kimi) · 智谱清言 (GLM) · 通义千问 (Qwen) · 文心一言 (Yiyan) · Gemini (Google) · 自定义代理
 
-支持自定义模型标识、源 / 目标语言、温度（Temp）、系统角色与用户模板 Prompt。
-
-## 技术栈
-
-- 语言：Kotlin，协程（Coroutines）
-- 网络：Retrofit + OkHttp + Gson
-- UI：AndroidX Navigation、Material Components
-- 识别：Google ML Kit、阿里云 OCR SDK
-
-## 构建
-
-- 环境：Android Studio（最新稳定版），JDK 11+
-- SDK：minSdk 28（Android 9+）/ targetSdk 36
-- 构建 Debug 包：
-
-```bash
-./gradlew assembleDebug
-```
-
-- 所有 API 密钥均在应用内配置，无需写入代码
+支持自定义模型标识、源 / 目标语言、温度（Temp）、系统角色与用户模板 Prompt。作者本人只测试过deepseek，其他理论上能用但不保证。
 
 ## 权限说明
 
@@ -76,10 +59,3 @@ ChatGPT (OpenAI) · DeepSeek · Moonshot (Kimi) · 智谱清言 (GLM) · 通义�
 - 截图内容仅发送到你选择的 OCR / AI 服务商，本应用不向其他服务器上传数据
 - 使用「本地识别」引擎时全程离线
 
-## 截图
-
-（待补充：建议放 2–3 张应用截图）
-
-## 许可证
-
-暂未指定。如需开源，推荐 MIT 或 Apache-2.0。
