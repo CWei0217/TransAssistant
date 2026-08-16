@@ -14,3 +14,9 @@
 .cxx
 local.properties
 /app/release/
+dist/
+
+# 签名（严禁提交）
+keystore.properties
+*.jks
+*.keystore
