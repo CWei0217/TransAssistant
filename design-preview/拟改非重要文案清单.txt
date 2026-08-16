@@ -1,0 +1,31 @@
+【已执行 2026-04】用户确认：历史记录（operational_archives）保持「历史记录」不改；其余已按下列建议更新 strings.xml，Toast 已改为 string 资源。
+以下为原拟稿备忘。
+
+【strings.xml — 工作台相关】
+1) late_edition（当前：最新版本）
+   建议：改为与顶栏副标题一致的气质，例如「版本信息」或保留作小标签（若你希望贴近预览稿，可改为「轻量说明」类短句，需你定稿）。
+
+2) current_translation_vector（当前：当前翻译配置）
+   建议：当前翻译配置 / 当前向量（与 HTML 预览里「当前向量」对齐时可用后者；若更偏功能说明则用前者）。
+
+3) core_status（当前：核心状态）
+   建议：状态 / 引擎状态（更短）；若保留「核心状态」亦可，仅风格略技术向。
+
+4) operational_archives（当前：历史记录）
+   建议：最近记录（与预览稿一致）；若强调归档感可保留「历史记录」。
+
+5) data_stream_empty（当前：-- 数据流为空 --）
+   建议：暂无翻译记录 / 暂无记录（去掉装饰符号，更偏产品文案）。
+
+【主页面布局内已移除的硬编码（原不在 strings）】
+6) 原底部「UNMETA CORE v3.0 // END OF LINE」已从 fragment_usage 移除；若需保留为彩蛋，请指定是否新建 string 及正文。
+
+7) 原报头「NO. 0392 / SYSTEM 2027」已随版式一并移除；若要恢复为装饰，请指定是否写入 strings。
+
+【Kotlin 内（非布局，属功能旁路文案；改前需你单独点头】
+8) UsageFragment 中 Toast「ARCHIVE COPIED」：可改为中文「已复制译文」等（涉及功能提示，未擅自修改）。
+
+————————
+重要按钮文案（未改）：
+- initialize_capture → 仍为 strings 中现有「启动识别」
+- purge → 仍为 strings 中现有「清空」

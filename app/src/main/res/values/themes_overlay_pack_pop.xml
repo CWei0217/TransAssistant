@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlayPackPop">
+        <item name="colorUiBgPage">@color/pack_pop_bg_page</item>
+        <item name="colorUiSurface">@color/pack_pop_surface</item>
+        <item name="colorUiSurfaceCard">@color/pack_pop_surface_card</item>
+        <item name="colorUiAccent">@color/pack_pop_accent</item>
+        <item name="colorUiAccentSoft">@color/pack_pop_accent_soft</item>
+        <item name="colorUiTextPrimary">@color/pack_pop_text_primary</item>
+        <item name="colorUiTextSecondary">@color/pack_pop_text_secondary</item>
+        <item name="colorUiTextMuted">@color/pack_pop_text_muted</item>
+        <item name="colorUiLine">@color/pack_pop_line</item>
+        <item name="colorUiLangPillBg">@color/pack_pop_lang_pill_bg</item>
+        <item name="colorUiChipStroke">@color/pack_pop_chip_stroke</item>
+        <item name="colorUiCardStroke">@color/pack_pop_card_stroke</item>
+        <item name="colorUiSliderTrackInactive">@color/pack_pop_slider_track_inactive</item>
+        <item name="colorUiStatusSuccess">@color/pack_pop_status_success</item>
+        <item name="colorUiStatusError">@color/pack_pop_status_error</item>
+        <item name="colorUiStatusPending">@color/pack_pop_status_pending</item>
+
+        <item name="colorPrimary">@color/pack_pop_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/pack_pop_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/pack_pop_text_primary</item>
+        <item name="colorSecondary">@color/pack_pop_secondary</item>
+        <item name="colorOnSecondary">@color/pack_pop_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/pack_pop_teal_soft</item>
+        <item name="colorOnSecondaryContainer">@color/pack_pop_text_primary</item>
+        <item name="colorSurface">@color/pack_pop_surface</item>
+        <item name="colorOnSurface">@color/pack_pop_on_surface</item>
+        <item name="android:colorBackground">@color/pack_pop_bg_page</item>
+        <item name="colorOnBackground">@color/pack_pop_text_primary</item>
+        <item name="android:windowBackground">@color/pack_pop_bg_page</item>
+        <item name="android:statusBarColor">@color/pack_pop_navy</item>
+        <item name="android:navigationBarColor">@color/pack_pop_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

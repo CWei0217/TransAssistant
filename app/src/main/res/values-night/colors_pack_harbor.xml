@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 海港蓝调 · 深色：真海军底 + 蓝门色面；爱丽丝蓝主文；哈珀蓝强调 -->
+    <color name="pack_harbor_bg_page">#26374D</color>
+    <color name="pack_harbor_surface">#536D82</color>
+    <color name="pack_harbor_surface_card">#2F3F52</color>
+    <color name="pack_harbor_accent">#9DB2BF</color>
+    <color name="pack_harbor_accent_soft">#3A4A5C</color>
+    <color name="pack_harbor_secondary_soft">#343E4A</color>
+    <color name="pack_harbor_text_primary">#DDE6ED</color>
+    <color name="pack_harbor_text_secondary">#9DB2BF</color>
+    <color name="pack_harbor_text_muted">#7A8FA0</color>
+    <color name="pack_harbor_on_surface">#DDE6ED</color>
+    <color name="pack_harbor_secondary">#DDE6ED</color>
+    <color name="pack_harbor_on_secondary">#26374D</color>
+    <color name="pack_harbor_line">#45DDE6ED</color>
+    <color name="pack_harbor_lang_pill_bg">#2A3545</color>
+    <color name="pack_harbor_chip_stroke">#AA9DB2BF</color>
+    <color name="pack_harbor_card_stroke">#5D6E80</color>
+    <color name="pack_harbor_slider_track_inactive">#455A6A</color>
+    <color name="pack_harbor_status_success">#5CB88A</color>
+    <color name="pack_harbor_status_error">#E89888</color>
+    <color name="pack_harbor_status_pending">#7A8FA0</color>
+</resources>

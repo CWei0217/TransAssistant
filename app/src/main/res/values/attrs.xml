@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 语义 UI 色：默认映射 colors.xml 的 ui_*；配色包 overlay 覆盖 -->
+    <attr name="colorUiBgPage" format="color" />
+    <attr name="colorUiSurface" format="color" />
+    <attr name="colorUiSurfaceCard" format="color" />
+    <attr name="colorUiAccent" format="color" />
+    <attr name="colorUiAccentSoft" format="color" />
+    <attr name="colorUiTextPrimary" format="color" />
+    <attr name="colorUiTextSecondary" format="color" />
+    <attr name="colorUiTextMuted" format="color" />
+    <attr name="colorUiLine" format="color" />
+    <attr name="colorUiLangPillBg" format="color" />
+    <attr name="colorUiChipStroke" format="color" />
+    <attr name="colorUiCardStroke" format="color" />
+    <attr name="colorUiSliderTrackInactive" format="color" />
+    <attr name="colorUiStatusSuccess" format="color" />
+    <attr name="colorUiStatusError" format="color" />
+    <attr name="colorUiStatusPending" format="color" />
+</resources>

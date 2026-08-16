@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 墨井大地 · 浅色：大底提亮作「画布」，卡片略暖于底栏，与页底明度差拉大避免糊成一团 -->
+    <color name="pack_inkwell_bg_page">#F6F4EF</color>
+    <color name="pack_inkwell_surface">#EBE6DD</color>
+    <color name="pack_inkwell_surface_card">#FDFAF4</color>
+    <!-- 主按钮 / 主强调：Inkwell（四色中最深冷绿） -->
+    <color name="pack_inkwell_accent">#2C3639</color>
+    <!-- 浅焦糖大地：芯片、容器底 -->
+    <color name="pack_inkwell_accent_soft">#E8D9CC</color>
+    <!-- Crème：次要强调、描边（与冷绿按钮形成「暖土 × 冷绿」双轴） -->
+    <color name="pack_inkwell_creme">#A27B5B</color>
+    <color name="pack_inkwell_text_primary">#2C3639</color>
+    <color name="pack_inkwell_text_secondary">#3F4E4F</color>
+    <color name="pack_inkwell_text_muted">#6B645C</color>
+    <color name="pack_inkwell_line">#552C3639</color>
+    <color name="pack_inkwell_lang_pill_bg">#E0D9CE</color>
+    <color name="pack_inkwell_chip_stroke">#99A27B5B</color>
+    <color name="pack_inkwell_card_stroke">#B89A82</color>
+    <color name="pack_inkwell_slider_track_inactive">#C9BDB0</color>
+    <color name="pack_inkwell_status_success">#2A5C42</color>
+    <color name="pack_inkwell_status_error">#8B3A3A</color>
+    <color name="pack_inkwell_status_pending">#6B645C</color>
+    <color name="pack_preview_classic">#7A2828</color>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 麦野金调 · 浅色：亚麻黄大底 + 墨绿底栏 + 近白卡片；主按钮金属金，次要鼠尾草绿 -->
+    <color name="pack_flax_bg_page">#F8EC99</color>
+    <color name="pack_flax_surface">#2C4219</color>
+    <color name="pack_flax_surface_card">#FFFDF0</color>
+    <color name="pack_flax_accent">#DEB938</color>
+    <!-- 金属金按钮上的字：图稿中深底用亚麻字，金底用深绿字 -->
+    <color name="pack_flax_on_primary">#2C4219</color>
+    <color name="pack_flax_accent_soft">#F2E8A8</color>
+    <color name="pack_flax_secondary_soft">#E4EBC8</color>
+    <color name="pack_flax_text_primary">#2C4219</color>
+    <color name="pack_flax_text_secondary">#433A30</color>
+    <color name="pack_flax_text_muted">#6B6248</color>
+    <color name="pack_flax_on_surface">#F8EC99</color>
+    <color name="pack_flax_secondary">#A8B774</color>
+    <color name="pack_flax_on_secondary">#2C4219</color>
+    <color name="pack_flax_line">#402C4219</color>
+    <color name="pack_flax_lang_pill_bg">#EDE8A8</color>
+    <color name="pack_flax_chip_stroke">#AADEB938</color>
+    <color name="pack_flax_card_stroke">#8FA87A</color>
+    <color name="pack_flax_slider_track_inactive">#D4D2A8</color>
+    <color name="pack_flax_status_success">#2A5C38</color>
+    <color name="pack_flax_status_error">#A03828</color>
+    <color name="pack_flax_status_pending">#6B6248</color>
+</resources>

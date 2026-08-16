@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_usage"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="使用" />
+    <item
+        android:id="@+id/nav_ocr_settings"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="OCR 配置" />
+    <item
+        android:id="@+id/nav_ai_settings"
+        android:icon="@drawable/ic_nav_settings_gear"
+        android:title="AI 配置" />
+</menu>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/subtitle_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- match_parent 在 wrap_content 父级中易导致宽度为 0 / 触摸区错误；用 wrap_content 保证胶囊可点 -->
+        <HorizontalScrollView
+            android:id="@+id/subtitle_toolbar_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:scrollbars="none"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:id="@+id/subtitle_toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/btn_subtitle_font_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/subtitle_menu_font_size"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:background="@drawable/subtitle_capsule_btn_bg" />
+
+                <TextView
+                    android:id="@+id/btn_subtitle_text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="6dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/subtitle_menu_text_color"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:background="@drawable/subtitle_capsule_btn_bg" />
+
+                <TextView
+                    android:id="@+id/btn_subtitle_stroke_toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="6dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/subtitle_menu_stroke"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:background="@drawable/subtitle_capsule_btn_bg" />
+
+                <TextView
+                    android:id="@+id/btn_subtitle_stroke_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="6dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/subtitle_menu_stroke_color"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:background="@drawable/subtitle_capsule_btn_bg" />
+
+                <TextView
+                    android:id="@+id/btn_subtitle_stroke_width"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="6dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/subtitle_menu_stroke_width"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:background="@drawable/subtitle_capsule_btn_bg" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- 字幕卡片 + 四边中点浅灰胶囊调节条（与截图选区手柄一致） -->
+        <FrameLayout
+            android:id="@+id/subtitle_card_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:id="@+id/subtitle_result_card"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/subtitle_frame_stroke"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subtitle_header"
+                        android:textColor="#99FFFFFF"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/btn_close_subtitle_result"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@android:drawable/ic_menu_close_clear_cancel"
+                        app:tint="#FFFFFF" />
+                </RelativeLayout>
+
+                <ScrollView
+                    android:id="@+id/subtitle_result_scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:color/transparent"
+                    android:fillViewport="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@android:color/transparent">
+
+                        <TextView
+                            android:id="@+id/tv_subtitle_source"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#CCFFFFFF"
+                            android:textSize="12sp"
+                            android:lineSpacingExtra="2dp" />
+
+                        <com.example.myapplication.StrokedTextView
+                            android:id="@+id/tv_subtitle_translated"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:textColor="#FFFFFFFF"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:lineSpacingExtra="3dp" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/subtitle_handle_top"
+                android:layout_width="56dp"
+                android:layout_height="16dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="-8dp">
+
+                <View
+                    android:layout_width="44dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selection_edge_capsule" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/subtitle_handle_bottom"
+                android:layout_width="56dp"
+                android:layout_height="16dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="-8dp">
+
+                <View
+                    android:layout_width="44dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selection_edge_capsule" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/subtitle_handle_left"
+                android:layout_width="16dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="-8dp">
+
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selection_edge_capsule" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/subtitle_handle_right"
+                android:layout_width="16dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="-8dp">
+
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/selection_edge_capsule" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

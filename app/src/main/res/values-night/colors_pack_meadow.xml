@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 蜜壤釉彩 · 深色：墨绿灰底 + 拿铁色卡片；榴红主按钮、蜂蜡次要，与底形成色温对撞 -->
+    <color name="pack_meadow_bg_page">#1A201E</color>
+    <color name="pack_meadow_surface">#2A322F</color>
+    <color name="pack_meadow_surface_card">#3A322B</color>
+    <color name="pack_meadow_accent">#E85A34</color>
+    <color name="pack_meadow_accent_soft">#4A3028</color>
+    <color name="pack_meadow_beeswax">#F0B856</color>
+    <color name="pack_meadow_on_secondary">#2A1E14</color>
+    <color name="pack_meadow_text_primary">#E8EEE9</color>
+    <color name="pack_meadow_text_secondary">#B9C4BB</color>
+    <color name="pack_meadow_text_muted">#8E9A91</color>
+    <color name="pack_meadow_line">#45ACCAB2</color>
+    <color name="pack_meadow_lang_pill_bg">#252C29</color>
+    <color name="pack_meadow_chip_stroke">#AAE85A34</color>
+    <color name="pack_meadow_card_stroke">#5D6B62</color>
+    <color name="pack_meadow_slider_track_inactive">#3D4842</color>
+    <color name="pack_meadow_status_success">#6BCB96</color>
+    <color name="pack_meadow_status_error">#FF8A6E</color>
+    <color name="pack_meadow_status_pending">#9AAA9F</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 悬浮窗 inflate 专用：去掉 Material 默认 colorSurface 等带来的灰底 -->
+    <!-- 不在此引用 android:Widget.*ScrollView（AAPT 视为私有资源）；透明背景在布局里显式设置 -->
+    <style name="Theme.Overlay.TransparentInflate" parent="Theme.MyApplication">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="colorSurface">@android:color/transparent</item>
+    </style>
+</resources>

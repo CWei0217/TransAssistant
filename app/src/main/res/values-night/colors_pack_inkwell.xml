@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 墨井大地 · 深色：Inkwell 冷底 + 大地色暖卡片 + 深绿按钮（页面上用 Lunar 以免与底同色） -->
+    <color name="pack_preview_classic">#7A2828</color>
+    <color name="pack_inkwell_bg_page">#2C3639</color>
+    <!-- 略亮于页底、深于主按钮，避免底栏与 #3F4E4F 按钮糊成一块 -->
+    <color name="pack_inkwell_surface">#323B3D</color>
+    <!-- 暖褐大地卡片，与冷绿页底形成色温对比 -->
+    <color name="pack_inkwell_surface_card">#4A4039</color>
+    <!-- 主按钮：Lunar（在 Inkwell 底上仍可辨的深青绿） -->
+    <color name="pack_inkwell_accent">#3F4E4F</color>
+    <color name="pack_inkwell_accent_soft">#3D3632</color>
+    <color name="pack_inkwell_creme">#A27B5B</color>
+    <color name="pack_inkwell_text_primary">#DCD7C9</color>
+    <color name="pack_inkwell_text_secondary">#C9C2B6</color>
+    <color name="pack_inkwell_text_muted">#9A9288</color>
+    <color name="pack_inkwell_line">#55DCD7C9</color>
+    <color name="pack_inkwell_lang_pill_bg">#3A3430</color>
+    <color name="pack_inkwell_chip_stroke">#99A27B5B</color>
+    <color name="pack_inkwell_card_stroke">#6B5C52</color>
+    <color name="pack_inkwell_slider_track_inactive">#5C554E</color>
+    <color name="pack_inkwell_status_success">#7CB89A</color>
+    <color name="pack_inkwell_status_error">#E8A598</color>
+    <color name="pack_inkwell_status_pending">#9A9288</color>
+</resources>

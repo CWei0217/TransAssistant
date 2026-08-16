@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlayPackHarbor">
+        <item name="colorUiBgPage">@color/pack_harbor_bg_page</item>
+        <item name="colorUiSurface">@color/pack_harbor_surface</item>
+        <item name="colorUiSurfaceCard">@color/pack_harbor_surface_card</item>
+        <item name="colorUiAccent">@color/pack_harbor_accent</item>
+        <item name="colorUiAccentSoft">@color/pack_harbor_accent_soft</item>
+        <item name="colorUiTextPrimary">@color/pack_harbor_text_primary</item>
+        <item name="colorUiTextSecondary">@color/pack_harbor_text_secondary</item>
+        <item name="colorUiTextMuted">@color/pack_harbor_text_muted</item>
+        <item name="colorUiLine">@color/pack_harbor_line</item>
+        <item name="colorUiLangPillBg">@color/pack_harbor_lang_pill_bg</item>
+        <item name="colorUiChipStroke">@color/pack_harbor_chip_stroke</item>
+        <item name="colorUiCardStroke">@color/pack_harbor_card_stroke</item>
+        <item name="colorUiSliderTrackInactive">@color/pack_harbor_slider_track_inactive</item>
+        <item name="colorUiStatusSuccess">@color/pack_harbor_status_success</item>
+        <item name="colorUiStatusError">@color/pack_harbor_status_error</item>
+        <item name="colorUiStatusPending">@color/pack_harbor_status_pending</item>
+
+        <item name="colorPrimary">@color/pack_harbor_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/pack_harbor_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/pack_harbor_text_primary</item>
+        <item name="colorSecondary">@color/pack_harbor_secondary</item>
+        <item name="colorOnSecondary">@color/pack_harbor_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/pack_harbor_secondary_soft</item>
+        <item name="colorOnSecondaryContainer">@color/pack_harbor_text_primary</item>
+        <item name="colorSurface">@color/pack_harbor_surface_card</item>
+        <item name="colorOnSurface">@color/pack_harbor_text_primary</item>
+        <item name="android:colorBackground">@color/pack_harbor_bg_page</item>
+        <item name="colorOnBackground">@color/pack_harbor_text_primary</item>
+        <item name="android:windowBackground">@color/pack_harbor_bg_page</item>
+        <item name="android:statusBarColor">@color/pack_harbor_surface</item>
+        <item name="android:navigationBarColor">@color/pack_harbor_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

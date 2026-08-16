@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色：对齐 design-preview index.html [data-theme="dark"] -->
+    <color name="ui_bg_page">#1A1614</color>
+    <color name="ui_surface">#242019</color>
+    <color name="ui_surface_card">#242019</color>
+    <color name="ui_accent">#C4746A</color>
+    <!-- 近似 index 中 accent-soft：rgba(196,116,106,0.15) 叠在页面底上 -->
+    <color name="ui_accent_soft">#3F3531</color>
+    <color name="ui_text_primary">#F2EBE6</color>
+    <color name="ui_text_secondary">#B5A89F</color>
+    <color name="ui_text_muted">#7D736C</color>
+    <color name="ui_line">#33F2EBE6</color>
+    <color name="ui_lang_pill_bg">#2E2825</color>
+    <color name="ui_chip_stroke">#4A423D</color>
+    <color name="ui_card_stroke">#3A3330</color>
+    <color name="ui_slider_track_inactive">#4A4238</color>
+
+    <color name="ui_status_success">#81C784</color>
+    <color name="ui_status_error">#FF8A80</color>
+    <color name="ui_status_pending">#9E9E9E</color>
+</resources>

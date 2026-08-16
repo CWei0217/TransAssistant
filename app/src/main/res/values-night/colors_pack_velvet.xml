@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 绯棉深调 · 深色：墨黑底 + 栗褐卡片/面 + 棉白主文 + 樱桃红主按钮 -->
+    <color name="pack_velvet_bg_page">#1B1717</color>
+    <color name="pack_velvet_surface">#2A1414</color>
+    <color name="pack_velvet_surface_card">#630000</color>
+    <color name="pack_velvet_accent">#810100</color>
+    <color name="pack_velvet_accent_soft">#4A2020</color>
+    <color name="pack_velvet_secondary_soft">#352828</color>
+    <color name="pack_velvet_text_primary">#EDEBDD</color>
+    <color name="pack_velvet_text_secondary">#C9C2B0</color>
+    <color name="pack_velvet_text_muted">#9A9284</color>
+    <color name="pack_velvet_on_surface">#EDEBDD</color>
+    <color name="pack_velvet_secondary">#EDEBDD</color>
+    <color name="pack_velvet_on_secondary">#1B1717</color>
+    <color name="pack_velvet_line">#40EDEBDD</color>
+    <color name="pack_velvet_lang_pill_bg">#2A2222</color>
+    <color name="pack_velvet_chip_stroke">#AA810100</color>
+    <color name="pack_velvet_card_stroke">#8A4A0000</color>
+    <color name="pack_velvet_slider_track_inactive">#4A3A3A</color>
+    <color name="pack_velvet_status_success">#5CB88A</color>
+    <color name="pack_velvet_status_error">#FF7A72</color>
+    <color name="pack_velvet_status_pending">#9A9284</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 与字幕胶囊同款药丸条；独立文件，避免改动悬浮球引用的 toolbar_background -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#66000000" />
+    <corners android:radius="18dp" />
+    <stroke
+        android:width="1dp"
+        android:color="#88FFFFFF" />
+</shape>

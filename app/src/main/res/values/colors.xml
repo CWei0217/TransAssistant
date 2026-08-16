@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      UI 语义色（浅色=本文件，深色=values-night/colors.xml 同名覆盖）。
+      后续「主题色切换」：请同步维护两套文件中 ui_accent / ui_accent_soft（或由代码生成 night 变体后写入 dynamicColors）。
+    -->
+    <!-- 品牌基础配色（暖色有机系；可作主题种子，与 ui_accent 可统一或独立） -->
+    <color name="brand_hot_paprika">#B53324</color>
+    <color name="brand_honeycomb">#E5A657</color>
+    <color name="brand_biscuit">#DFBC94</color>
+    <color name="brand_crumpet">#F5E2CE</color>
+
+    <!-- 浅色：与 design-preview/index.html 中 :root（约 L16–L36）一致，勿与稿分叉改色 -->
+    <color name="ui_bg_page">#F5F3E9</color>
+    <!-- 底栏等大面积：纯白；与暖色页底拉开色温对比 -->
+    <color name="ui_surface">#FFFFFF</color>
+    <!-- 仅卡片大面：中性纸白，与 ui_bg_page 奶油底区分（深色见 night 覆盖） -->
+    <color name="ui_surface_card">#FAFAFA</color>
+    <color name="ui_accent">#7A2828</color>
+    <color name="ui_accent_soft">#F9EBEB</color>
+    <color name="ui_text_primary">#2C2420</color>
+    <color name="ui_text_secondary">#6B5E56</color>
+    <color name="ui_text_muted">#9A8B82</color>
+    <!-- 稿中分隔/描边：rgba(44,36,32,0.08) -->
+    <color name="ui_line">#142C2420</color>
+    <!-- 药丸底：略浅于 ui_bg_page，白卡片上可与页面底区分层次（稿见 design-preview 中 lang-pill-bg 变量） -->
+    <color name="ui_lang_pill_bg">#F8F6F0</color>
+    <!-- 稿中 .chip border：accent-border，即 rgba(122,40,40,0.35) -->
+    <color name="ui_chip_stroke">#597A2828</color>
+    <!-- 卡片细描边：rgba(44,36,32,0.08)，与 ui_line 一致；配低 elevation 勾轮廓 -->
+    <color name="ui_card_stroke">#142C2420</color>
+    <!-- AI 设置等 Slider 未激活轨：比 ui_line 更易辨，仍偏暖灰 -->
+    <color name="ui_slider_track_inactive">#D8D2C6</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="paper_white">#FDFDFD</color>
+    <color name="ink_black">#000000</color>
+    <color name="ink_gray">#333333</color>
+    <color name="ink_light_gray">#999999</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="divider_heavy">#000000</color>
+    <color name="divider_light">#CCCCCC</color>
+    <color name="selection_red">#FF0000</color>
+    <!-- 选区四边中央调节条：浅灰 -->
+    <color name="selection_edge_handle">#D0D0D0</color>
+    <color name="bottom_nav_item_color">@color/selector_nav_color</color>
+
+    <color name="ui_status_success">#2E7D4A</color>
+    <color name="ui_status_error">#B3261E</color>
+    <color name="ui_status_pending">#757575</color>
+</resources>

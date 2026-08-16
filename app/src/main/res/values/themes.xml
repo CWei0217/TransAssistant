@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorUiBgPage">@color/ui_bg_page</item>
+        <item name="colorUiSurface">@color/ui_surface</item>
+        <item name="colorUiSurfaceCard">@color/ui_surface_card</item>
+        <item name="colorUiAccent">@color/ui_accent</item>
+        <item name="colorUiAccentSoft">@color/ui_accent_soft</item>
+        <item name="colorUiTextPrimary">@color/ui_text_primary</item>
+        <item name="colorUiTextSecondary">@color/ui_text_secondary</item>
+        <item name="colorUiTextMuted">@color/ui_text_muted</item>
+        <item name="colorUiLine">@color/ui_line</item>
+        <item name="colorUiLangPillBg">@color/ui_lang_pill_bg</item>
+        <item name="colorUiChipStroke">@color/ui_chip_stroke</item>
+        <item name="colorUiCardStroke">@color/ui_card_stroke</item>
+        <item name="colorUiSliderTrackInactive">@color/ui_slider_track_inactive</item>
+        <item name="colorUiStatusSuccess">@color/ui_status_success</item>
+        <item name="colorUiStatusError">@color/ui_status_error</item>
+        <item name="colorUiStatusPending">@color/ui_status_pending</item>
+
+        <item name="colorPrimary">?attr/colorUiAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">?attr/colorUiAccentSoft</item>
+        <item name="colorOnPrimaryContainer">?attr/colorUiAccent</item>
+        <!-- BottomNavigationView 选中指示条使用 secondaryContainer（布局中 itemActiveIndicatorColor 在部分环境下不可用） -->
+        <item name="colorSecondaryContainer">?attr/colorUiAccentSoft</item>
+        <item name="colorOnSecondaryContainer">?attr/colorUiAccent</item>
+        <item name="colorSurface">?attr/colorUiSurface</item>
+        <item name="colorOnSurface">?attr/colorUiTextPrimary</item>
+        <item name="android:colorBackground">?attr/colorUiBgPage</item>
+        <item name="colorOnBackground">?attr/colorUiTextPrimary</item>
+        <item name="android:windowBackground">?attr/colorUiBgPage</item>
+        <item name="android:statusBarColor">?attr/colorUiBgPage</item>
+        <item name="android:navigationBarColor">?attr/colorUiSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.Rounded.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Rounded.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.Rounded.Large</item>
+
+        <item name="editTextStyle">@style/Widget.App.EditText</item>
+    </style>
+
+    <!-- AI 设置等：圆角粗轨、描边拇指、无浮动标签，与暖色卡片协调 -->
+    <style name="Widget.App.Slider.Settings" parent="Widget.Material3.Slider">
+        <item name="trackHeight">8dp</item>
+        <item name="thumbRadius">10dp</item>
+        <item name="thumbStrokeWidth">2dp</item>
+        <item name="thumbStrokeColor">?attr/colorUiSurface</item>
+        <item name="labelBehavior">gone</item>
+        <item name="tickVisible">false</item>
+        <item name="trackColorInactive">?attr/colorUiSliderTrackInactive</item>
+        <item name="trackColorActive">?attr/colorPrimary</item>
+        <item name="thumbColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Rounded.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Rounded.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Rounded.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">22dp</item>
+    </style>
+
+    <style name="Widget.App.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/newspaper_input_bg</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/colorUiTextPrimary</item>
+    </style>
+
+    <style name="NewspaperDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorUiLine</item>
+    </style>
+
+    <style name="TextAppearance.App" parent="TextAppearance.Material3.BodyLarge" />
+
+    <style name="TextAppearance.App.Label" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorUiTextPrimary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.App.Small">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">?attr/colorUiTextSecondary</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="TextAppearance.App.PressHeader" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorUiTextPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlayPackFlax">
+        <item name="colorUiBgPage">@color/pack_flax_bg_page</item>
+        <item name="colorUiSurface">@color/pack_flax_surface</item>
+        <item name="colorUiSurfaceCard">@color/pack_flax_surface_card</item>
+        <item name="colorUiAccent">@color/pack_flax_accent</item>
+        <item name="colorUiAccentSoft">@color/pack_flax_accent_soft</item>
+        <item name="colorUiTextPrimary">@color/pack_flax_text_primary</item>
+        <item name="colorUiTextSecondary">@color/pack_flax_text_secondary</item>
+        <item name="colorUiTextMuted">@color/pack_flax_text_muted</item>
+        <item name="colorUiLine">@color/pack_flax_line</item>
+        <item name="colorUiLangPillBg">@color/pack_flax_lang_pill_bg</item>
+        <item name="colorUiChipStroke">@color/pack_flax_chip_stroke</item>
+        <item name="colorUiCardStroke">@color/pack_flax_card_stroke</item>
+        <item name="colorUiSliderTrackInactive">@color/pack_flax_slider_track_inactive</item>
+        <item name="colorUiStatusSuccess">@color/pack_flax_status_success</item>
+        <item name="colorUiStatusError">@color/pack_flax_status_error</item>
+        <item name="colorUiStatusPending">@color/pack_flax_status_pending</item>
+
+        <item name="colorPrimary">@color/pack_flax_accent</item>
+        <item name="colorOnPrimary">@color/pack_flax_on_primary</item>
+        <item name="colorPrimaryContainer">@color/pack_flax_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/pack_flax_text_primary</item>
+        <item name="colorSecondary">@color/pack_flax_secondary</item>
+        <item name="colorOnSecondary">@color/pack_flax_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/pack_flax_secondary_soft</item>
+        <item name="colorOnSecondaryContainer">@color/pack_flax_text_primary</item>
+        <item name="colorSurface">@color/pack_flax_surface_card</item>
+        <item name="colorOnSurface">@color/pack_flax_text_primary</item>
+        <item name="android:colorBackground">@color/pack_flax_bg_page</item>
+        <item name="colorOnBackground">@color/pack_flax_text_primary</item>
+        <item name="android:windowBackground">@color/pack_flax_bg_page</item>
+        <item name="android:statusBarColor">@color/pack_flax_surface</item>
+        <item name="android:navigationBarColor">@color/pack_flax_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

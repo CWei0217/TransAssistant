@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 波普 · 浅色：奶油黄大底 + 近白卡片 + 青灰底栏；海军顶栏；主按钮正红，次要海军 -->
+    <color name="pack_pop_bg_page">#FBE6A7</color>
+    <color name="pack_pop_surface">#7197A0</color>
+    <color name="pack_pop_surface_card">#FFFBF2</color>
+    <color name="pack_pop_accent">#DE1923</color>
+    <color name="pack_pop_accent_soft">#FCD9DB</color>
+    <color name="pack_pop_teal_soft">#D2E6EA</color>
+    <color name="pack_pop_navy">#003249</color>
+    <color name="pack_pop_text_primary">#003249</color>
+    <color name="pack_pop_text_secondary">#2A5F6F</color>
+    <color name="pack_pop_text_muted">#5A7F8A</color>
+    <!-- 青灰底栏上的图标与未选标签 -->
+    <color name="pack_pop_on_surface">#FFFBF0</color>
+    <color name="pack_pop_secondary">#003249</color>
+    <color name="pack_pop_on_secondary">#FBE6A7</color>
+    <color name="pack_pop_line">#40003249</color>
+    <color name="pack_pop_lang_pill_bg">#F5E5B5</color>
+    <color name="pack_pop_chip_stroke">#B0DE1923</color>
+    <color name="pack_pop_card_stroke">#8AB0BC</color>
+    <color name="pack_pop_slider_track_inactive">#C5D8DD</color>
+    <color name="pack_pop_status_success">#0D6B4E</color>
+    <color name="pack_pop_status_error">#C4141E</color>
+    <color name="pack_pop_status_pending">#5A7F8A</color>
+</resources>

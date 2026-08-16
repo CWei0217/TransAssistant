@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 与 values/themes 同名、条目一致，避免 night 覆盖丢项；仅状态栏/导航栏图标模式不同 -->
+    <style name="Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorUiBgPage">@color/ui_bg_page</item>
+        <item name="colorUiSurface">@color/ui_surface</item>
+        <item name="colorUiSurfaceCard">@color/ui_surface_card</item>
+        <item name="colorUiAccent">@color/ui_accent</item>
+        <item name="colorUiAccentSoft">@color/ui_accent_soft</item>
+        <item name="colorUiTextPrimary">@color/ui_text_primary</item>
+        <item name="colorUiTextSecondary">@color/ui_text_secondary</item>
+        <item name="colorUiTextMuted">@color/ui_text_muted</item>
+        <item name="colorUiLine">@color/ui_line</item>
+        <item name="colorUiLangPillBg">@color/ui_lang_pill_bg</item>
+        <item name="colorUiChipStroke">@color/ui_chip_stroke</item>
+        <item name="colorUiCardStroke">@color/ui_card_stroke</item>
+        <item name="colorUiSliderTrackInactive">@color/ui_slider_track_inactive</item>
+        <item name="colorUiStatusSuccess">@color/ui_status_success</item>
+        <item name="colorUiStatusError">@color/ui_status_error</item>
+        <item name="colorUiStatusPending">@color/ui_status_pending</item>
+
+        <item name="colorPrimary">?attr/colorUiAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">?attr/colorUiAccentSoft</item>
+        <item name="colorOnPrimaryContainer">?attr/colorUiAccent</item>
+        <item name="colorSecondaryContainer">?attr/colorUiAccentSoft</item>
+        <item name="colorOnSecondaryContainer">?attr/colorUiAccent</item>
+        <item name="colorSurface">?attr/colorUiSurface</item>
+        <item name="colorOnSurface">?attr/colorUiTextPrimary</item>
+        <item name="android:colorBackground">?attr/colorUiBgPage</item>
+        <item name="colorOnBackground">?attr/colorUiTextPrimary</item>
+        <item name="android:windowBackground">?attr/colorUiBgPage</item>
+        <item name="android:statusBarColor">?attr/colorUiBgPage</item>
+        <item name="android:navigationBarColor">?attr/colorUiSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.Rounded.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.Rounded.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.Rounded.Large</item>
+        <item name="editTextStyle">@style/Widget.App.EditText</item>
+    </style>
+</resources>

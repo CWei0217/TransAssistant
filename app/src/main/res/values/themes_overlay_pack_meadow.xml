@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlayPackMeadow">
+        <item name="colorUiBgPage">@color/pack_meadow_bg_page</item>
+        <item name="colorUiSurface">@color/pack_meadow_surface</item>
+        <item name="colorUiSurfaceCard">@color/pack_meadow_surface_card</item>
+        <item name="colorUiAccent">@color/pack_meadow_accent</item>
+        <item name="colorUiAccentSoft">@color/pack_meadow_accent_soft</item>
+        <item name="colorUiTextPrimary">@color/pack_meadow_text_primary</item>
+        <item name="colorUiTextSecondary">@color/pack_meadow_text_secondary</item>
+        <item name="colorUiTextMuted">@color/pack_meadow_text_muted</item>
+        <item name="colorUiLine">@color/pack_meadow_line</item>
+        <item name="colorUiLangPillBg">@color/pack_meadow_lang_pill_bg</item>
+        <item name="colorUiChipStroke">@color/pack_meadow_chip_stroke</item>
+        <item name="colorUiCardStroke">@color/pack_meadow_card_stroke</item>
+        <item name="colorUiSliderTrackInactive">@color/pack_meadow_slider_track_inactive</item>
+        <item name="colorUiStatusSuccess">@color/pack_meadow_status_success</item>
+        <item name="colorUiStatusError">@color/pack_meadow_status_error</item>
+        <item name="colorUiStatusPending">@color/pack_meadow_status_pending</item>
+
+        <item name="colorPrimary">@color/pack_meadow_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/pack_meadow_accent_soft</item>
+        <item name="colorOnPrimaryContainer">@color/pack_meadow_text_primary</item>
+        <item name="colorSecondary">@color/pack_meadow_beeswax</item>
+        <item name="colorOnSecondary">@color/pack_meadow_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/pack_meadow_accent_soft</item>
+        <item name="colorOnSecondaryContainer">@color/pack_meadow_text_primary</item>
+        <item name="colorSurface">@color/pack_meadow_surface</item>
+        <item name="colorOnSurface">@color/pack_meadow_text_primary</item>
+        <item name="android:colorBackground">@color/pack_meadow_bg_page</item>
+        <item name="colorOnBackground">@color/pack_meadow_text_primary</item>
+        <item name="android:windowBackground">@color/pack_meadow_bg_page</item>
+        <item name="android:statusBarColor">@color/pack_meadow_bg_page</item>
+        <item name="android:navigationBarColor">@color/pack_meadow_surface</item>
+    </style>
+</resources>

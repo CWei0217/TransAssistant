@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 蜜壤釉彩 · 浅色：极浅鼠尾草画布 + 白杏卡片 + 鼠尾草底栏；主按钮榴红，次要蜂蜡 -->
+    <color name="pack_meadow_bg_page">#F0F6F2</color>
+    <color name="pack_meadow_surface">#C4D6CA</color>
+    <color name="pack_meadow_surface_card">#FFFDF8</color>
+    <color name="pack_meadow_accent">#D44720</color>
+    <color name="pack_meadow_accent_soft">#F8DDD4</color>
+    <color name="pack_meadow_beeswax">#E9A752</color>
+    <!-- 蜂蜡底上的字/图标 -->
+    <color name="pack_meadow_on_secondary">#2A1E14</color>
+    <color name="pack_meadow_text_primary">#3D3228</color>
+    <color name="pack_meadow_text_secondary">#5C4D3F</color>
+    <color name="pack_meadow_text_muted">#7A6B5C</color>
+    <color name="pack_meadow_line">#3378614D</color>
+    <color name="pack_meadow_lang_pill_bg">#DDE8E0</color>
+    <color name="pack_meadow_chip_stroke">#99D44720</color>
+    <color name="pack_meadow_card_stroke">#8FB5A3</color>
+    <color name="pack_meadow_slider_track_inactive">#B8C9BE</color>
+    <color name="pack_meadow_status_success">#2A6B45</color>
+    <color name="pack_meadow_status_error">#B83218</color>
+    <color name="pack_meadow_status_pending">#6D6254</color>
+</resources>
